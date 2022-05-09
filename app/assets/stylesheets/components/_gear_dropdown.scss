@@ -1,0 +1,72 @@
+#gear {
+  position: relative;
+}
+
+.gear-dropdown {
+  box-sizing: border-box;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  width: 345px;
+  padding: 10px 10px;
+  z-index: 1;
+
+  background-color: #fff;
+  border: 1px solid $light-gray;
+  border-radius: 3px;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+
+  font-size: 15px;
+  font-weight: bold;
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  color: $gray;
+
+  li {
+    margin-top: 10px;
+  }
+}
+
+#gear:hover .hidden {
+  visibility: visible;
+}
+
+.editions {
+  border-bottom: 1.5px solid $light-gray;
+
+  li {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+  }
+
+  li:hover {
+    color: #000;
+    background-color: $light-gray;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.dropdown-subtitle {
+  font-size: 12px;
+  font-weight: 900;
+  color: $dark-gray;
+  padding: 5px;
+}
+
+.help {
+  margin-top: 10px;
+  font-weight: 500;
+  color: $blue;
+  text-transform: none;
+
+  li {
+    padding: 5px;
+    margin: 5px 0;
+  }
+}
+
